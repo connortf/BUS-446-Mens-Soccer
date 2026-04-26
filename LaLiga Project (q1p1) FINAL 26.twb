@@ -1,0 +1,3185 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='laliga_player_stats_english (1)' inline='true' name='federated.0d7afjc03tzb1t15mb9r00bbqu8n' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='laliga_player_stats_english (1)' name='textscan.1ejcp6x09jone91ef9v9r12q2nli'>
+            <connection class='textscan' directory='C:/Users/conno/Downloads' filename='laliga_player_stats_english (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1ejcp6x09jone91ef9v9r12q2nli' name='laliga_player_stats_english (1).csv' table='[laliga_player_stats_english (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='string' name='Position' ordinal='1' />
+            <column datatype='integer' name='Shirt number' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='real' name='Minutes played' ordinal='4' />
+            <column datatype='string' name='LowMinPlayers' ordinal='5' />
+            <column datatype='integer' name='Games played' ordinal='6' />
+            <column datatype='real' name='Percentage of games played' ordinal='7' />
+            <column datatype='integer' name='Full games played' ordinal='8' />
+            <column datatype='real' name='Percentage of full games played' ordinal='9' />
+            <column datatype='integer' name='Games started' ordinal='10' />
+            <column datatype='real' name='Percentage of games started' ordinal='11' />
+            <column datatype='integer' name='Games where substituted' ordinal='12' />
+            <column datatype='real' name='Percentage of games where substituted' ordinal='13' />
+            <column datatype='integer' name='Yellow Cards' ordinal='14' />
+            <column datatype='integer' name='Red Cards' ordinal='15' />
+            <column datatype='integer' name='Second Yellows' ordinal='16' />
+            <column datatype='integer' name='Goals scored' ordinal='17' />
+            <column datatype='integer' name='Penalties scored' ordinal='18' />
+            <column datatype='integer' name='Own goals' ordinal='19' />
+            <column datatype='integer' name='Goals conceded while player on pitch' ordinal='20' />
+            <column datatype='integer' name='Tackles' ordinal='21' />
+            <column datatype='integer' name='Interceptions' ordinal='22' />
+            <column datatype='integer' name='Recoveries' ordinal='23' />
+            <column datatype='integer' name='Clearances' ordinal='24' />
+            <column datatype='integer' name='Successful tackles' ordinal='25' />
+            <column datatype='integer' name='Unssuccessful tackles' ordinal='26' />
+            <column datatype='integer' name='Last man' ordinal='27' />
+            <column datatype='integer' name='Successful duels' ordinal='28' />
+            <column datatype='integer' name='Duels lost' ordinal='29' />
+            <column datatype='integer' name='Successful aerial challenges' ordinal='30' />
+            <column datatype='integer' name='Unsuccessful aerial challenges' ordinal='31' />
+            <column datatype='integer' name='Offsides' ordinal='32' />
+            <column datatype='integer' name='Fouls suffered' ordinal='33' />
+            <column datatype='integer' name='Fouls committed' ordinal='34' />
+            <column datatype='integer' name='Penalties won' ordinal='35' />
+            <column datatype='integer' name='Penalties given away' ordinal='36' />
+            <column datatype='integer' name='Handballs committed' ordinal='37' />
+            <column datatype='integer' name='Fouls committed per card' ordinal='38' />
+            <column datatype='integer' name='Shots' ordinal='39' />
+            <column datatype='integer' name='Shots on target' ordinal='40' />
+            <column datatype='integer' name='Assists' ordinal='41' />
+            <column datatype='integer' name='Successful dribbles' ordinal='42' />
+            <column datatype='integer' name='Unsuccessful dribbles' ordinal='43' />
+            <column datatype='integer' name='Goals scored 1' ordinal='44' />
+            <column datatype='integer' name='From inside the area' ordinal='45' />
+            <column datatype='integer' name='From outside the area' ordinal='46' />
+            <column datatype='integer' name='Goals with left foot' ordinal='47' />
+            <column datatype='integer' name='Goals with right foot' ordinal='48' />
+            <column datatype='integer' name='Penalties scored 1' ordinal='49' />
+            <column datatype='integer' name='Goals scored with header' ordinal='50' />
+            <column datatype='integer' name='Goals from set piece' ordinal='51' />
+            <column datatype='integer' name='Crosses' ordinal='52' />
+            <column datatype='integer' name='Corners' ordinal='53' />
+            <column datatype='integer' name='Tackles 1' ordinal='54' />
+            <column datatype='integer' name='Duels' ordinal='55' />
+            <column datatype='integer' name='Man-to-man duels' ordinal='56' />
+            <column datatype='integer' name='Aerial duels' ordinal='57' />
+            <column datatype='real' name='Passes' ordinal='58' />
+            <column datatype='real' name='Short passes' ordinal='59' />
+            <column datatype='integer' name='Long passes' ordinal='60' />
+            <column datatype='integer' name='Through balls' ordinal='61' />
+            <column datatype='integer' name='Goals scored per attempt' ordinal='62' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shirt number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shirt number]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Shirt number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minutes played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Minutes played]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Minutes played</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LowMinPlayers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LowMinPlayers]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>LowMinPlayers</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games played]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Games played</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games played]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Percentage of games played</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full games played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full games played]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Full games played</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of full games played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of full games played]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Percentage of full games played</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games started</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games started]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Games started</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games started</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games started]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Percentage of games started</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games where substituted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games where substituted]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Games where substituted</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games where substituted</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games where substituted]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Percentage of games where substituted</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Cards]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Yellow Cards</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Cards]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Red Cards</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Second Yellows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Second Yellows]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Second Yellows</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals scored</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties scored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties scored]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Penalties scored</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Own goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Own goals]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Own goals</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals conceded while player on pitch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals conceded while player on pitch]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals conceded while player on pitch</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tackles]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Tackles</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interceptions]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Interceptions</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recoveries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recoveries]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Recoveries</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clearances]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Clearances</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful tackles]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Successful tackles</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unssuccessful tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unssuccessful tackles]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Unssuccessful tackles</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last man</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Last man]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Last man</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful duels]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Successful duels</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duels lost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duels lost]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Duels lost</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful aerial challenges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful aerial challenges]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Successful aerial challenges</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unsuccessful aerial challenges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unsuccessful aerial challenges]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Unsuccessful aerial challenges</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offsides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offsides]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Offsides</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls suffered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls suffered]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Fouls suffered</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls committed]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Fouls committed</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties won]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Penalties won</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties given away</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties given away]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Penalties given away</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Handballs committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Handballs committed]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Handballs committed</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls committed per card</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls committed per card]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Fouls committed per card</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Shots</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots on target</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots on target]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Shots on target</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Assists]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Assists</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful dribbles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful dribbles]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Successful dribbles</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unsuccessful dribbles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unsuccessful dribbles]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Unsuccessful dribbles</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored 1]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals scored 1</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From inside the area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[From inside the area]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>From inside the area</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From outside the area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[From outside the area]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>From outside the area</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals with left foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals with left foot]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals with left foot</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals with right foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals with right foot]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals with right foot</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties scored 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties scored 1]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Penalties scored 1</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored with header</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored with header]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals scored with header</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals from set piece</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals from set piece]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals from set piece</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crosses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Crosses]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Crosses</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Corners</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tackles 1]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Tackles 1</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duels]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Duels</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Man-to-man duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Man-to-man duels]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Man-to-man duels</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aerial duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aerial duels]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Aerial duels</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Passes]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Passes</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short passes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short passes]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Short passes</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long passes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long passes]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Long passes</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Through balls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Through balls]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Through balls</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored per attempt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored per attempt]</local-name>
+            <parent-name>[laliga_player_stats_english (1).csv]</parent-name>
+            <remote-alias>Goals scored per attempt</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='integer' name='[Shirt number]' role='dimension' type='ordinal' />
+      <column caption='laliga_player_stats_english (1).csv' datatype='table' name='[__tableau_internal_object_id__].[laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='laliga_player_stats_english (1).csv' id='laliga_player_stats_english (1).csv_4BFD2362E2C94838B62D10F5A52590E7'>
+            <properties context=''>
+              <relation connection='textscan.1ejcp6x09jone91ef9v9r12q2nli' name='laliga_player_stats_english (1).csv' table='[laliga_player_stats_english (1)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Team' ordinal='0' />
+                  <column datatype='string' name='Position' ordinal='1' />
+                  <column datatype='integer' name='Shirt number' ordinal='2' />
+                  <column datatype='string' name='Name' ordinal='3' />
+                  <column datatype='real' name='Minutes played' ordinal='4' />
+                  <column datatype='string' name='LowMinPlayers' ordinal='5' />
+                  <column datatype='integer' name='Games played' ordinal='6' />
+                  <column datatype='real' name='Percentage of games played' ordinal='7' />
+                  <column datatype='integer' name='Full games played' ordinal='8' />
+                  <column datatype='real' name='Percentage of full games played' ordinal='9' />
+                  <column datatype='integer' name='Games started' ordinal='10' />
+                  <column datatype='real' name='Percentage of games started' ordinal='11' />
+                  <column datatype='integer' name='Games where substituted' ordinal='12' />
+                  <column datatype='real' name='Percentage of games where substituted' ordinal='13' />
+                  <column datatype='integer' name='Yellow Cards' ordinal='14' />
+                  <column datatype='integer' name='Red Cards' ordinal='15' />
+                  <column datatype='integer' name='Second Yellows' ordinal='16' />
+                  <column datatype='integer' name='Goals scored' ordinal='17' />
+                  <column datatype='integer' name='Penalties scored' ordinal='18' />
+                  <column datatype='integer' name='Own goals' ordinal='19' />
+                  <column datatype='integer' name='Goals conceded while player on pitch' ordinal='20' />
+                  <column datatype='integer' name='Tackles' ordinal='21' />
+                  <column datatype='integer' name='Interceptions' ordinal='22' />
+                  <column datatype='integer' name='Recoveries' ordinal='23' />
+                  <column datatype='integer' name='Clearances' ordinal='24' />
+                  <column datatype='integer' name='Successful tackles' ordinal='25' />
+                  <column datatype='integer' name='Unssuccessful tackles' ordinal='26' />
+                  <column datatype='integer' name='Last man' ordinal='27' />
+                  <column datatype='integer' name='Successful duels' ordinal='28' />
+                  <column datatype='integer' name='Duels lost' ordinal='29' />
+                  <column datatype='integer' name='Successful aerial challenges' ordinal='30' />
+                  <column datatype='integer' name='Unsuccessful aerial challenges' ordinal='31' />
+                  <column datatype='integer' name='Offsides' ordinal='32' />
+                  <column datatype='integer' name='Fouls suffered' ordinal='33' />
+                  <column datatype='integer' name='Fouls committed' ordinal='34' />
+                  <column datatype='integer' name='Penalties won' ordinal='35' />
+                  <column datatype='integer' name='Penalties given away' ordinal='36' />
+                  <column datatype='integer' name='Handballs committed' ordinal='37' />
+                  <column datatype='integer' name='Fouls committed per card' ordinal='38' />
+                  <column datatype='integer' name='Shots' ordinal='39' />
+                  <column datatype='integer' name='Shots on target' ordinal='40' />
+                  <column datatype='integer' name='Assists' ordinal='41' />
+                  <column datatype='integer' name='Successful dribbles' ordinal='42' />
+                  <column datatype='integer' name='Unsuccessful dribbles' ordinal='43' />
+                  <column datatype='integer' name='Goals scored 1' ordinal='44' />
+                  <column datatype='integer' name='From inside the area' ordinal='45' />
+                  <column datatype='integer' name='From outside the area' ordinal='46' />
+                  <column datatype='integer' name='Goals with left foot' ordinal='47' />
+                  <column datatype='integer' name='Goals with right foot' ordinal='48' />
+                  <column datatype='integer' name='Penalties scored 1' ordinal='49' />
+                  <column datatype='integer' name='Goals scored with header' ordinal='50' />
+                  <column datatype='integer' name='Goals from set piece' ordinal='51' />
+                  <column datatype='integer' name='Crosses' ordinal='52' />
+                  <column datatype='integer' name='Corners' ordinal='53' />
+                  <column datatype='integer' name='Tackles 1' ordinal='54' />
+                  <column datatype='integer' name='Duels' ordinal='55' />
+                  <column datatype='integer' name='Man-to-man duels' ordinal='56' />
+                  <column datatype='integer' name='Aerial duels' ordinal='57' />
+                  <column datatype='real' name='Passes' ordinal='58' />
+                  <column datatype='real' name='Short passes' ordinal='59' />
+                  <column datatype='integer' name='Long passes' ordinal='60' />
+                  <column datatype='integer' name='Through balls' ordinal='61' />
+                  <column datatype='integer' name='Goals scored per attempt' ordinal='62' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='LaligaCoeffs' inline='true' name='federated.0jym4zi0jjjxfr12u07rw0ye6pz6' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LaligaCoeffs' name='textscan.0oja73v0v3lt3114qa30i0ogpihg'>
+            <connection class='textscan' directory='C:/Users/conno/Downloads' filename='LaligaCoeffs.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0oja73v0v3lt3114qa30i0ogpihg' name='LaligaCoeffs.csv' table='[LaligaCoeffs#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Variable' ordinal='0' />
+            <column datatype='real' name='Coefficient' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variable]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>Variable</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coefficient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Coefficient]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>Coefficient</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='LaligaCoeffs.csv' datatype='table' name='[__tableau_internal_object_id__].[LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='LaligaCoeffs.csv' id='LaligaCoeffs.csv_65F7B58DD19A4F8E9171C09B1EA05037'>
+            <properties context=''>
+              <relation connection='textscan.0oja73v0v3lt3114qa30i0ogpihg' name='LaligaCoeffs.csv' table='[LaligaCoeffs#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Variable' ordinal='0' />
+                  <column datatype='real' name='Coefficient' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='LaligaCoeffs (2)' inline='true' name='federated.16fuo060kwbqqq1g2za3w1xhnhh8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='LaligaCoeffs' name='textscan.0w9oa9q1syp3io14wayyq0xkfaed'>
+            <connection class='textscan' directory='C:/Users/conno/Downloads' filename='LaligaCoeffs.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0w9oa9q1syp3io14wayyq0xkfaed' name='LaligaCoeffs.csv' table='[LaligaCoeffs#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Variable' ordinal='0' />
+            <column datatype='real' name='Coefficient' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Variable</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Variable]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>Variable</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coefficient</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Coefficient]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>Coefficient</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[LaligaCoeffs.csv]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='LaligaCoeffs.csv' datatype='table' name='[__tableau_internal_object_id__].[LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='LaligaCoeffs.csv' id='LaligaCoeffs.csv_A5299B105AE04A19982E191F58006A38'>
+            <properties context=''>
+              <relation connection='textscan.0w9oa9q1syp3io14wayyq0xkfaed' name='LaligaCoeffs.csv' table='[LaligaCoeffs#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Variable' ordinal='0' />
+                  <column datatype='real' name='Coefficient' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+    <datasource caption='Updated LowMin Sheet' inline='true' name='federated.1dxn4wt0cptac01h8lhvo1v645il' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Updated LowMin Sheet' name='textscan.1pjjqd80avbs3614mdbgs1rgzg1p'>
+            <connection class='textscan' directory='C:/Users/conno/Downloads' filename='Updated LowMin Sheet.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1pjjqd80avbs3614mdbgs1rgzg1p' name='Updated LowMin Sheet.csv' table='[Updated LowMin Sheet#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Team' ordinal='0' />
+            <column datatype='string' name='Position' ordinal='1' />
+            <column datatype='integer' name='Shirt number' ordinal='2' />
+            <column datatype='string' name='Name' ordinal='3' />
+            <column datatype='string' name='Minutes played' ordinal='4' />
+            <column datatype='string' name='LowMinPlayers' ordinal='5' />
+            <column datatype='integer' name='Games played' ordinal='6' />
+            <column datatype='real' name='Percentage of games played' ordinal='7' />
+            <column datatype='integer' name='Full games played' ordinal='8' />
+            <column datatype='real' name='Percentage of full games played' ordinal='9' />
+            <column datatype='integer' name='Games started' ordinal='10' />
+            <column datatype='real' name='Percentage of games started' ordinal='11' />
+            <column datatype='integer' name='Games where substituted' ordinal='12' />
+            <column datatype='real' name='Percentage of games where substituted' ordinal='13' />
+            <column datatype='integer' name='Yellow Cards' ordinal='14' />
+            <column datatype='integer' name='Red Cards' ordinal='15' />
+            <column datatype='integer' name='Second Yellows' ordinal='16' />
+            <column datatype='integer' name='Goals scored' ordinal='17' />
+            <column datatype='integer' name='Penalties scored' ordinal='18' />
+            <column datatype='integer' name='Own goals' ordinal='19' />
+            <column datatype='integer' name='Goals conceded while player on pitch' ordinal='20' />
+            <column datatype='integer' name='Tackles' ordinal='21' />
+            <column datatype='integer' name='Interceptions' ordinal='22' />
+            <column datatype='integer' name='Recoveries' ordinal='23' />
+            <column datatype='integer' name='Clearances' ordinal='24' />
+            <column datatype='integer' name='Successful tackles' ordinal='25' />
+            <column datatype='integer' name='Unssuccessful tackles' ordinal='26' />
+            <column datatype='integer' name='Last man' ordinal='27' />
+            <column datatype='integer' name='Successful duels' ordinal='28' />
+            <column datatype='integer' name='Duels lost' ordinal='29' />
+            <column datatype='integer' name='Successful aerial challenges' ordinal='30' />
+            <column datatype='integer' name='Unsuccessful aerial challenges' ordinal='31' />
+            <column datatype='integer' name='Offsides' ordinal='32' />
+            <column datatype='integer' name='Fouls suffered' ordinal='33' />
+            <column datatype='integer' name='Fouls committed' ordinal='34' />
+            <column datatype='integer' name='Penalties won' ordinal='35' />
+            <column datatype='integer' name='Penalties given away' ordinal='36' />
+            <column datatype='integer' name='Handballs committed' ordinal='37' />
+            <column datatype='integer' name='Fouls committed per card' ordinal='38' />
+            <column datatype='integer' name='Shots' ordinal='39' />
+            <column datatype='integer' name='Shots on target' ordinal='40' />
+            <column datatype='integer' name='Assists' ordinal='41' />
+            <column datatype='integer' name='Successful dribbles' ordinal='42' />
+            <column datatype='integer' name='Unsuccessful dribbles' ordinal='43' />
+            <column datatype='integer' name='Goals scored 1' ordinal='44' />
+            <column datatype='integer' name='From inside the area' ordinal='45' />
+            <column datatype='integer' name='From outside the area' ordinal='46' />
+            <column datatype='integer' name='Goals with left foot' ordinal='47' />
+            <column datatype='integer' name='Goals with right foot' ordinal='48' />
+            <column datatype='integer' name='Penalties scored 1' ordinal='49' />
+            <column datatype='integer' name='Goals scored with header' ordinal='50' />
+            <column datatype='integer' name='Goals from set piece' ordinal='51' />
+            <column datatype='integer' name='Crosses' ordinal='52' />
+            <column datatype='integer' name='Corners' ordinal='53' />
+            <column datatype='integer' name='Tackles 1' ordinal='54' />
+            <column datatype='integer' name='Duels' ordinal='55' />
+            <column datatype='integer' name='Man-to-man duels' ordinal='56' />
+            <column datatype='integer' name='Aerial duels' ordinal='57' />
+            <column datatype='real' name='Passes' ordinal='58' />
+            <column datatype='real' name='Short passes' ordinal='59' />
+            <column datatype='integer' name='Long passes' ordinal='60' />
+            <column datatype='integer' name='Through balls' ordinal='61' />
+            <column datatype='integer' name='Goals scored per attempt' ordinal='62' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Team</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Team]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Team</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Position</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Position]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Position</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shirt number</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shirt number]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Shirt number</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Minutes played</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Minutes played]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Minutes played</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LowMinPlayers</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LowMinPlayers]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>LowMinPlayers</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games played]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Games played</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games played]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Percentage of games played</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full games played</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full games played]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Full games played</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of full games played</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of full games played]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Percentage of full games played</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games started</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games started]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Games started</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games started</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games started]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Percentage of games started</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Games where substituted</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Games where substituted]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Games where substituted</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage of games where substituted</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage of games where substituted]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Percentage of games where substituted</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Yellow Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Yellow Cards]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Yellow Cards</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Red Cards</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Red Cards]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Red Cards</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Second Yellows</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Second Yellows]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Second Yellows</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals scored</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties scored</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties scored]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Penalties scored</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Own goals</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Own goals]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Own goals</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals conceded while player on pitch</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals conceded while player on pitch]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals conceded while player on pitch</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tackles]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Tackles</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Interceptions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Interceptions]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Interceptions</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recoveries</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Recoveries]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Recoveries</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Clearances</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Clearances]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Clearances</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful tackles]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Successful tackles</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unssuccessful tackles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unssuccessful tackles]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Unssuccessful tackles</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Last man</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Last man]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Last man</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful duels]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Successful duels</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duels lost</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duels lost]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Duels lost</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful aerial challenges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful aerial challenges]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Successful aerial challenges</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unsuccessful aerial challenges</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unsuccessful aerial challenges]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Unsuccessful aerial challenges</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Offsides</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Offsides]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Offsides</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls suffered</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls suffered]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Fouls suffered</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls committed]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Fouls committed</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties won</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties won]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Penalties won</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties given away</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties given away]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Penalties given away</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Handballs committed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Handballs committed]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Handballs committed</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fouls committed per card</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fouls committed per card]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Fouls committed per card</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Shots</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Shots on target</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Shots on target]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Shots on target</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Assists]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Assists</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Successful dribbles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Successful dribbles]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Successful dribbles</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unsuccessful dribbles</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unsuccessful dribbles]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Unsuccessful dribbles</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored 1]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals scored 1</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From inside the area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[From inside the area]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>From inside the area</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>From outside the area</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[From outside the area]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>From outside the area</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals with left foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals with left foot]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals with left foot</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals with right foot</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals with right foot]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals with right foot</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Penalties scored 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Penalties scored 1]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Penalties scored 1</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored with header</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored with header]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals scored with header</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals from set piece</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals from set piece]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals from set piece</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Crosses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Crosses]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Crosses</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Corners</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Corners]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Corners</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Tackles 1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Tackles 1]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Tackles 1</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duels]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Duels</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Man-to-man duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Man-to-man duels]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Man-to-man duels</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Aerial duels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Aerial duels]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Aerial duels</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Passes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Passes]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Passes</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Short passes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Short passes]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Short passes</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Long passes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Long passes]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Long passes</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Through balls</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Through balls]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Through balls</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goals scored per attempt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Goals scored per attempt]</local-name>
+            <parent-name>[Updated LowMin Sheet.csv]</parent-name>
+            <remote-alias>Goals scored per attempt</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='ShotVolumeGroup' datatype='string' name='[Calculation_1759556420431873]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Shots] &gt; 60 THEN &quot;High&quot; ELSEIF [Shots] &gt; 25 THEN &quot;Medium&quot; ELSE &quot;Low&quot; END' />
+      </column>
+      <column caption='Low Min Players' datatype='string' name='[LowMinPlayers]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Shirt number]' role='dimension' type='ordinal' />
+      <column caption='Updated LowMin Sheet.csv' datatype='table' name='[__tableau_internal_object_id__].[Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Updated LowMin Sheet.csv' id='Updated LowMin Sheet.csv_26CBBB3DB81B451D80D611689C4558D5'>
+            <properties context=''>
+              <relation connection='textscan.1pjjqd80avbs3614mdbgs1rgzg1p' name='Updated LowMin Sheet.csv' table='[Updated LowMin Sheet#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Team' ordinal='0' />
+                  <column datatype='string' name='Position' ordinal='1' />
+                  <column datatype='integer' name='Shirt number' ordinal='2' />
+                  <column datatype='string' name='Name' ordinal='3' />
+                  <column datatype='string' name='Minutes played' ordinal='4' />
+                  <column datatype='string' name='LowMinPlayers' ordinal='5' />
+                  <column datatype='integer' name='Games played' ordinal='6' />
+                  <column datatype='real' name='Percentage of games played' ordinal='7' />
+                  <column datatype='integer' name='Full games played' ordinal='8' />
+                  <column datatype='real' name='Percentage of full games played' ordinal='9' />
+                  <column datatype='integer' name='Games started' ordinal='10' />
+                  <column datatype='real' name='Percentage of games started' ordinal='11' />
+                  <column datatype='integer' name='Games where substituted' ordinal='12' />
+                  <column datatype='real' name='Percentage of games where substituted' ordinal='13' />
+                  <column datatype='integer' name='Yellow Cards' ordinal='14' />
+                  <column datatype='integer' name='Red Cards' ordinal='15' />
+                  <column datatype='integer' name='Second Yellows' ordinal='16' />
+                  <column datatype='integer' name='Goals scored' ordinal='17' />
+                  <column datatype='integer' name='Penalties scored' ordinal='18' />
+                  <column datatype='integer' name='Own goals' ordinal='19' />
+                  <column datatype='integer' name='Goals conceded while player on pitch' ordinal='20' />
+                  <column datatype='integer' name='Tackles' ordinal='21' />
+                  <column datatype='integer' name='Interceptions' ordinal='22' />
+                  <column datatype='integer' name='Recoveries' ordinal='23' />
+                  <column datatype='integer' name='Clearances' ordinal='24' />
+                  <column datatype='integer' name='Successful tackles' ordinal='25' />
+                  <column datatype='integer' name='Unssuccessful tackles' ordinal='26' />
+                  <column datatype='integer' name='Last man' ordinal='27' />
+                  <column datatype='integer' name='Successful duels' ordinal='28' />
+                  <column datatype='integer' name='Duels lost' ordinal='29' />
+                  <column datatype='integer' name='Successful aerial challenges' ordinal='30' />
+                  <column datatype='integer' name='Unsuccessful aerial challenges' ordinal='31' />
+                  <column datatype='integer' name='Offsides' ordinal='32' />
+                  <column datatype='integer' name='Fouls suffered' ordinal='33' />
+                  <column datatype='integer' name='Fouls committed' ordinal='34' />
+                  <column datatype='integer' name='Penalties won' ordinal='35' />
+                  <column datatype='integer' name='Penalties given away' ordinal='36' />
+                  <column datatype='integer' name='Handballs committed' ordinal='37' />
+                  <column datatype='integer' name='Fouls committed per card' ordinal='38' />
+                  <column datatype='integer' name='Shots' ordinal='39' />
+                  <column datatype='integer' name='Shots on target' ordinal='40' />
+                  <column datatype='integer' name='Assists' ordinal='41' />
+                  <column datatype='integer' name='Successful dribbles' ordinal='42' />
+                  <column datatype='integer' name='Unsuccessful dribbles' ordinal='43' />
+                  <column datatype='integer' name='Goals scored 1' ordinal='44' />
+                  <column datatype='integer' name='From inside the area' ordinal='45' />
+                  <column datatype='integer' name='From outside the area' ordinal='46' />
+                  <column datatype='integer' name='Goals with left foot' ordinal='47' />
+                  <column datatype='integer' name='Goals with right foot' ordinal='48' />
+                  <column datatype='integer' name='Penalties scored 1' ordinal='49' />
+                  <column datatype='integer' name='Goals scored with header' ordinal='50' />
+                  <column datatype='integer' name='Goals from set piece' ordinal='51' />
+                  <column datatype='integer' name='Crosses' ordinal='52' />
+                  <column datatype='integer' name='Corners' ordinal='53' />
+                  <column datatype='integer' name='Tackles 1' ordinal='54' />
+                  <column datatype='integer' name='Duels' ordinal='55' />
+                  <column datatype='integer' name='Man-to-man duels' ordinal='56' />
+                  <column datatype='integer' name='Aerial duels' ordinal='57' />
+                  <column datatype='real' name='Passes' ordinal='58' />
+                  <column datatype='real' name='Short passes' ordinal='59' />
+                  <column datatype='integer' name='Long passes' ordinal='60' />
+                  <column datatype='integer' name='Through balls' ordinal='61' />
+                  <column datatype='integer' name='Goals scored per attempt' ordinal='62' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='AvgGoals by SV'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated LowMin Sheet' name='federated.1dxn4wt0cptac01h8lhvo1v645il' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dxn4wt0cptac01h8lhvo1v645il'>
+            <column caption='ShotVolumeGroup' datatype='string' name='[Calculation_1759556420431873]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Shots] &gt; 60 THEN &quot;High&quot; ELSEIF [Shots] &gt; 25 THEN &quot;Medium&quot; ELSE &quot;Low&quot; END' />
+            </column>
+            <column datatype='integer' name='[Goals scored]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Shots]' role='measure' type='quantitative' />
+            <column-instance column='[Goals scored]' derivation='Avg' name='[avg:Goals scored:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1759556420431873]' derivation='None' name='[none:Calculation_1759556420431873:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Calculation_1759556420431873:nk]' direction='DESC' using='[federated.1dxn4wt0cptac01h8lhvo1v645il].[avg:Goals scored:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1dxn4wt0cptac01h8lhvo1v645il].[avg:Goals scored:qk]</rows>
+        <cols>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Calculation_1759556420431873:nk]</cols>
+      </table>
+      <simple-id uuid='{58C035A0-1CF8-4163-9189-482CB3E63B4C}' />
+    </worksheet>
+    <worksheet name='Q1-SOTvsGoals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated LowMin Sheet' name='federated.1dxn4wt0cptac01h8lhvo1v645il' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dxn4wt0cptac01h8lhvo1v645il'>
+            <column datatype='integer' name='[Goals scored]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Shots on target]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Position]' derivation='None' name='[none:Position:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Goals scored]' derivation='Sum' name='[sum:Goals scored:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shots on target]' derivation='Sum' name='[sum:Shots on target:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]' />
+              <lod column='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Name:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1dxn4wt0cptac01h8lhvo1v645il].[sum:Goals scored:qk]</rows>
+        <cols>[federated.1dxn4wt0cptac01h8lhvo1v645il].[sum:Shots on target:qk]</cols>
+      </table>
+      <simple-id uuid='{4BA1DF6A-20E5-4B5D-9F36-F166C8D0C1B4}' />
+    </worksheet>
+    <worksheet name='Q1-ShotVol.vsGoals'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Updated LowMin Sheet' name='federated.1dxn4wt0cptac01h8lhvo1v645il' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1dxn4wt0cptac01h8lhvo1v645il'>
+            <column datatype='integer' name='[Goals scored]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Position]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Shots]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Position]' derivation='None' name='[none:Position:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Goals scored]' derivation='Sum' name='[sum:Goals scored:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Shots]' derivation='Sum' name='[sum:Shots:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]' />
+              <lod column='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Name:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1dxn4wt0cptac01h8lhvo1v645il].[sum:Goals scored:qk]</rows>
+        <cols>[federated.1dxn4wt0cptac01h8lhvo1v645il].[sum:Shots:qk]</cols>
+      </table>
+      <simple-id uuid='{3A49A51E-4A3A-4630-A6E7-6D4FC3406BBB}' />
+    </worksheet>
+    <worksheet name='Regression Coefficients - RSquared of .8178'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='LaligaCoeffs (2)' name='federated.16fuo060kwbqqq1g2za3w1xhnhh8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16fuo060kwbqqq1g2za3w1xhnhh8'>
+            <column datatype='real' name='[Coefficient]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Variable]' role='dimension' type='nominal' />
+            <column-instance column='[Variable]' derivation='None' name='[none:Variable:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Coefficient]' derivation='Sum' name='[sum:Coefficient:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[none:Variable:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]' shelf='rows' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]' />
+              <text column='[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[none:Variable:nk]</rows>
+        <cols>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[none:Variable:nk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[none:Variable:nk]</field>
+                  <field>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Shots&quot;</value>
+                <value>-0.033958146000000002</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{325FD6B9-CC92-4C66-9478-424B5B267C65}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='115'>
+    <window class='worksheet' name='Q1-SOTvsGoals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Name:nk]</field>
+            <field>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5C0E7915-A46F-42E1-81B7-FDADABC3C3FE}' />
+    </window>
+    <window class='worksheet' name='Q1-ShotVol.vsGoals'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Name:nk]</field>
+            <field>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Position:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5ACF7CEC-FB0B-4810-8225-03E9CD1236B0}' />
+    </window>
+    <window class='worksheet' name='AvgGoals by SV'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1dxn4wt0cptac01h8lhvo1v645il].[none:Calculation_1759556420431873:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C9F900B2-2566-48FD-9ECF-E4C5C2C96B65}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Regression Coefficients - RSquared of .8178'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[sum:Coefficient:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16fuo060kwbqqq1g2za3w1xhnhh8].[none:Variable:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{72B88790-352A-459B-A6C6-98B06669FC3F}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='AvgGoals by SV' width='192'>
+      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
+      jVIAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Q1-SOTvsGoals' width='192'>
+      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
+      N2yCtwAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Q1-ShotVol.vsGoals' width='192'>
+      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
+      I0mS9H8BSw1ulae1NTcAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='147' name='Regression Coefficients - RSquared of .8178' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
